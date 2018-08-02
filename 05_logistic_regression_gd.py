@@ -4,7 +4,7 @@ from __future__ import print_function
 import tensorflow as tf
 import numpy as np
 
-data = np.loadtxt("trainDatasetForLogisticRegression", unpack=True, dtype="float32")
+data = np.loadtxt("dataset/trainDatasetForLogisticRegression", unpack=True, dtype="float32")
 
 x_data = data[:-1]
 y_data = data[-1]

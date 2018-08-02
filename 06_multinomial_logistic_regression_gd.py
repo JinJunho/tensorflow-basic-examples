@@ -4,7 +4,7 @@ from __future__ import print_function
 import tensorflow as tf
 import numpy as np
 
-data = np.loadtxt("trainDatasetForSoftmax", unpack=True, dtype="float32")
+data = np.loadtxt("dataset/trainDatasetForSoftmax", unpack=True, dtype="float32")
 
 x_data = np.transpose(data[:3])
 y_data = np.transpose(data[3:])
